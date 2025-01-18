@@ -35,6 +35,9 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+# Docker
+  virtualisation.docker.enable = true;
+
   # Set your time zone.
   time.timeZone = "Europe/Amsterdam";
 
