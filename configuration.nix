@@ -10,6 +10,9 @@
       ./hardware-configuration.nix
       ./internal/ble.nix
       ./shell/zsh.nix
+      ./user/skitzo.nix
+      ./utils/utils.nix
+      ./utils/code.nix
     ];
 
   # NIXOS
@@ -98,15 +101,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.skitzo = {
-    isNormalUser = true;
-    description = "Skitzo";
-    extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      discord
-    #  thunderbird
-    ];
-  };
+
 
   # Install firefox.
   programs.firefox.enable = true;
@@ -114,15 +109,7 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-    vscode
-    neofetch
-    git
-  ];
+
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
