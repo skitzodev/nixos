@@ -9,6 +9,9 @@
       ll = "ls -l";
       update = "sudo nixos-rebuild switch";
       c = "code .";
+      fetch = "neofetch | lolcat";
+      cls = "clear";
+      g = "git";
     };
     ohMyZsh = {
       enable = true;
