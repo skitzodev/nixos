@@ -13,6 +13,7 @@
       ./user/skitzo.nix
       ./utils/utils.nix
       ./utils/code.nix
+      ./utils/terminal.nix
     ];
 
   # NIXOS

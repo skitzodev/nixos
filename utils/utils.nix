@@ -5,6 +5,6 @@
     neofetch
     lolcat
     git
-    
+    mullvad-vpn
   ];
 }
