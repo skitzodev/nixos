@@ -6,5 +6,6 @@
     lolcat
     git
     mullvad-vpn
+    qbittorrent
   ];
 }
