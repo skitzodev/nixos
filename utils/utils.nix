@@ -5,7 +5,6 @@
     neofetch
     lolcat
     git
-    mullvad-vpn
-    qbittorrent
+    nautilus
   ];
 }
