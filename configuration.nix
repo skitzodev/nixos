@@ -14,6 +14,7 @@
       ./utils/utils.nix
       ./utils/code.nix
       ./utils/terminal.nix
+      ./utils/langs.nix
     ];
 
   # NIXOS
