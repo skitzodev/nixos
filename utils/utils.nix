@@ -10,5 +10,6 @@
     btop
     wget
     unzip
+    vlc
   ];
 }
