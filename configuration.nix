@@ -8,7 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./ble.nix
+      ./internal/ble.nix
+      ./shell/zsh.nix
     ];
 
   # NIXOS
