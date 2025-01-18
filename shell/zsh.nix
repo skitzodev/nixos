@@ -12,6 +12,7 @@
       fetch = "neofetch | lolcat";
       cls = "clear";
       g = "git";
+      q = "exit";
     };
     ohMyZsh = {
       enable = true;
