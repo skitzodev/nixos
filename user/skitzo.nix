@@ -5,7 +5,6 @@
     description = "Skitzo";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
-      discord
     #  thunderbird
     ];
     shell = pkgs.zsh;

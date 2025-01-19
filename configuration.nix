@@ -15,6 +15,7 @@
       ./utils/code.nix
       ./utils/terminal.nix
       ./utils/langs.nix
+      ./utils/social.nix
     ];
 
   # NIXOS
