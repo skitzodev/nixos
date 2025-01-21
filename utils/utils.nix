@@ -12,5 +12,6 @@
     unzip
     vlc
     spotify
+    whois
   ];
 }
