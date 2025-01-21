@@ -16,6 +16,7 @@
       ./utils/terminal.nix
       ./utils/langs.nix
       ./utils/social.nix
+      ./utils/ollama.nix
     ];
 
   # NIXOS
