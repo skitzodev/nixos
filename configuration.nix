@@ -7,10 +7,11 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+      ./user/skitzo.nix
+      ./user/dev.nix
       ./hardware-configuration.nix
       ./internal/ble.nix
       ./shell/zsh.nix
-      ./user/skitzo.nix
       ./utils/utils.nix
       ./utils/code.nix
       ./utils/terminal.nix
