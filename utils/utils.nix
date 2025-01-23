@@ -13,5 +13,6 @@
     vlc
     spotify
     whois
+    gimp
   ];
 }
