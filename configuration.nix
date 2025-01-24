@@ -18,6 +18,7 @@
       ./utils/langs.nix
       ./utils/social.nix
       ./utils/ollama.nix
+      ./utils/obs.nix
     ];
 
   # NIXOS
