@@ -14,5 +14,6 @@
     spotify
     whois
     gimp
+    nomachine-client
   ];
 }
