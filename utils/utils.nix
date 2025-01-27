@@ -15,5 +15,6 @@
     whois
     gimp
     nomachine-client
+    dbeaver-bin
   ];
 }
