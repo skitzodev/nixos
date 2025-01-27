@@ -17,7 +17,6 @@
       ./utils/terminal.nix
       ./utils/langs.nix
       ./utils/social.nix
-      ./utils/ollama.nix
       ./utils/obs.nix
     ];
 
@@ -40,7 +39,12 @@
   networking.networkmanager.enable = true;
 
 # Docker
-  virtualisation.docker.enable = true;
+  # virtualisation.docker.enable = true;
+  # virtualisation.docker.enableNvidia = true;
+
+  virtualisation.podman.enable = true;
+  # virtualisation.podman.enableNvidia = true;
+  hardware.nvidia-container-toolkit.enable = true;
 
   # Set your time zone.
   time.timeZone = "Europe/Amsterdam";

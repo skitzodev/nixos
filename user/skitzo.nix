@@ -3,7 +3,7 @@
     users.users.skitzo = {
     isNormalUser = true;
     description = "Skitzo";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "podman" ];
     packages = with pkgs; [
     #  thunderbird
     ];
