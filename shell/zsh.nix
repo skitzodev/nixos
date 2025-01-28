@@ -24,7 +24,7 @@
     };
     ohMyZsh = {
       enable = true;
-      plugins = [ "git" ];
+      plugins = [ "git" "podman" ];
       theme = ""; # Uses starship
     };
 
