@@ -9,11 +9,10 @@ sudo nixos-rebuild switch --flake .
 
 Update:
 
-Containerized OLLAMA with:
+Containerized OLLAMA + openwebui with:
 
 ```sh
-podman run -d --gpus=0 -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
-podman exec -it ollama ollama run deepseek-r1:7b
+podman run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 ```
 
 Also using podman instead of docker now
