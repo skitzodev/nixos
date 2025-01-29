@@ -1,8 +1,16 @@
 Install flake as system:
 
-```nix
+```sh
 sudo nixos-rebuild switch --flake .
 ```
+
+Or with the zsh alias 
+
+```sh
+upgrade
+```
+> Requires for the nixos repo to be in 
+
 
 > Make sure git is staged
 
