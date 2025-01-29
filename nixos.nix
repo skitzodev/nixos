@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./user/skitzo.nix
       ./user/dev.nix
+      
       ./hardware-configuration.nix
 
       ./internal/audio.nix
