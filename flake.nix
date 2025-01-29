@@ -10,7 +10,7 @@
 
     nixosConfigurations.blackbox = nixpkgs.lib.nixosSystem {
       modules = [
-        ./configuration.nix
+        ./nixos.nix
       ];
     };
 

@@ -17,4 +17,6 @@
     nomachine-client
     dbeaver-bin
   ];
+  # Install firefox.
+  programs.firefox.enable = true;
 }
